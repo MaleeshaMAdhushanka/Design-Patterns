@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="114878c2-2f03-4e89-91f8-48a2b374ca1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/Facade Design Patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/facade/HomeTheater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/facade/HomeTheaterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/DVDPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/PowerSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/SoundSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/TvSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/impl/DVDPlayerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/impl/SoundSystemImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/impl/TVSystemImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural Patterns/Structural Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Decorator Design Pattern/Decorator Design Pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Decorator Design Pattern/src/decotor/MessagingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Decorator Design Pattern/src/decotor/SenderNameDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Decorator Design Pattern/src/server/EmailNotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Decorator Design Pattern/src/server/MessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Decorator Design Pattern/src/server/SmsMessagingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,6 +58,7 @@
   "keyToString": {
     "Application.Client.Main.executor": "Run",
     "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -72,11 +69,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "G:/SOLID/Design Patterns/Structural Patterns/Facade Design Patterns/src/Main.java",
+    "onboarding.tips.debug.path": "G:/SOLID/Design Patterns/Structural Patterns/Decorator Design Pattern/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Client.Main">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Client.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client.Main" />
       <module name="Facade Design Patterns" />
@@ -97,6 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Decorator Design Pattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Singleton Design Patterns" />
@@ -106,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Client.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -128,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747768617119</updated>
-      <workItem from="1747768617951" duration="3472000" />
+      <workItem from="1747768617951" duration="4764000" />
     </task>
     <servers />
   </component>
@@ -157,6 +162,11 @@
           <url>file://$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/Client/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Structural Patterns/Decorator Design Pattern/src/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
