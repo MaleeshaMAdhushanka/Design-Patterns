@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Creational patterns/Creational patterns.iml" filepath="$PROJECT_DIR$/Creational patterns/Creational patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design Patterns.iml" filepath="$PROJECT_DIR$/Design Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/Facade Design Patterns.iml" filepath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/Facade Design Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational patterns/Factory Design Patterns/Factory Design Patterns.iml" filepath="$PROJECT_DIR$/Creational patterns/Factory Design Patterns/Factory Design Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational patterns/Singleton Design Patterns/Singleton Design Patterns.iml" filepath="$PROJECT_DIR$/Creational patterns/Singleton Design Patterns/Singleton Design Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Structural Patterns/Structural Patterns.iml" filepath="$PROJECT_DIR$/Structural Patterns/Structural Patterns.iml" />
     </modules>
   </component>
 </project>

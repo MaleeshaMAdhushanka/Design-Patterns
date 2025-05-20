@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="114878c2-2f03-4e89-91f8-48a2b374ca1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Creational patterns/Factory Design Patterns/Factory Design Patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/Factory Design Patterns/src/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/Factory Design Patterns/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/Factory Design Patterns/src/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/Factory Design Patterns/src/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/Factory Design Patterns/src/Gtr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/Factory Design Patterns/src/Lambo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/Factory Design Patterns/src/Mustang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/Facade Design Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/facade/HomeTheater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/facade/HomeTheaterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/DVDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/PowerSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/SoundSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/TvSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/impl/DVDPlayerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/impl/SoundSystemImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/subsystems/impl/TVSystemImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural Patterns/Structural Patterns.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.Main.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,11 +72,24 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "G:/SOLID/Design Patterns/Creational patterns/Factory Design Patterns/src/Main.java",
+    "onboarding.tips.debug.path": "G:/SOLID/Design Patterns/Structural Patterns/Facade Design Patterns/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Client.Main">
+    <configuration name="Client.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.Main" />
+      <module name="Facade Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Factory Design Patterns" />
@@ -90,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -111,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747768617119</updated>
-      <workItem from="1747768617951" duration="2098000" />
+      <workItem from="1747768617951" duration="3472000" />
     </task>
     <servers />
   </component>
@@ -130,6 +147,16 @@
           <url>file://$PROJECT_DIR$/Creational patterns/Factory Design Patterns/src/Main.java</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Structural Patterns/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Structural Patterns/Facade Design Patterns/src/Client/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
